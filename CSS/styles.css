@@ -1,0 +1,61 @@
+
+/* Colors
+--rosy-brown: #CA9592ff;
+--powder-blue: #C7E9ECff;
+--non-photo-blue: #9BE1FBff;
+--quinacridone-magenta: #9D4168ff;
+--pale-pink: #E9D0CFff;
+--space-cadet: #2F344Fff;
+*/
+/*************SELECTORS***************/
+body{
+  background-color: #2F344Fff;
+
+}
+hr{
+  border-style: none;
+  border-top:dashed  #062a78 7px;
+  width:5%;
+}
+h1{
+  color: #E9D0CFff;
+  text-align: center;
+  font-family:serif;
+  text-shadow: 70px 70px #9D4168ff;
+  font-size: 600%;
+  text-decoration: overline;
+}
+h3{
+  font-family: serif;
+  text-align: center;
+  font-size: 250%;
+  color: #b8dffb;
+}
+p{
+  color: #b8dffb;
+  font-family:monospace;
+  text-align: center;
+}
+td{
+  padding: 10px;
+}
+/******************CLASS SELECTORS****************/
+.more:hover{
+  background-color: #C7E9ECff;
+}
+.pageLink{
+  font-family: sans-serif;
+}
+.Photo{
+  background-image: url("portrait-drawing.svg");
+
+  /*transform: rotate(-5deg);*/
+  background-size: 300px;
+  width: 300px;
+  height: 900px;
+  opacity: 1;
+}
+.TypeWriter{
+  text-align: center;
+}
+/**********************ID SELECTORS*************/
